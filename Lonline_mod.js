@@ -16574,7 +16574,7 @@
 
     Lampa.Lang.add({
       online_mod_watch: {
-        ru: 'Start 🎃 {online}',
+        ru: '__Start_🎃_{online}__',
         uk: 'Дивитися онлайн',
         be: 'Глядзець анлайн',
         en: 'Watch online',
@@ -16588,7 +16588,7 @@
         zh: '获取链接失败'
       },
       online_mod_blockedlink: {
-        ru: 'Video not available in your region ❌',
+        ru: '__Video_not_available_in_your_region_❌__',
         uk: 'На жаль, це відео не доступне у вашому регіоні',
         be: 'Нажаль, гэта відэа не даступна ў вашым рэгіёне',
         en: 'Sorry, this video is not available in your region',
@@ -16651,28 +16651,28 @@
         zh: '为所有人重置时间码'
       },
       online_mod_query_start: {
-        ru: 'On request',
+        ru: '__On_request_🔎__',
         uk: 'На запит',
         be: 'Па запыце',
         en: 'On request',
         zh: '根据要求'
       },
       online_mod_query_end: {
-        ru: 'no results ❓',
+        ru: '__no_results_❓__',
         uk: 'немає результатів',
         be: 'няма вынікаў',
         en: 'no results',
         zh: '没有结果'
       },
       online_mod_title: {
-        ru: 'Online ',
+        ru: '__❄_Online_❄__',
         uk: 'Онлайн',
         be: 'Анлайн',
         en: 'Online',
         zh: '在线的'
       },
       online_mod_title_full: {
-        ru: 'Online Mod',
+        ru: '__Online_Mod_🌏__',
         uk: 'Онлайн Мод',
         be: 'Анлайн Мод',
         en: 'Online Mod',
@@ -16903,21 +16903,21 @@
         zh: '秘密密码'
       },
       online_mod_seasons_count: {
-        ru: '_Seasons_🎭__',
+        ru: '__🎭_Seasons_🎭__',
         uk: 'Сезонів',
         be: 'Сезонаў',
         en: 'Seasons',
         zh: '季'
       },
       online_mod_episodes_count: {
-        ru: '__Episodes_🎃__',
+        ru: '__🎃_Episodes_🎃__',
         uk: 'Епізодів',
         be: 'Эпізодаў',
         en: 'Episodes',
         zh: '集'
       },
       online_mod_show_more: {
-        ru: '__Show_more_☃__',
+        ru: '__☃_Show_more_☃__',
         uk: 'Показати ще',
         be: 'Паказаць яшчэ',
         en: 'Show more',

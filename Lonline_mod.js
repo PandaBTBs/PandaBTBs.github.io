@@ -16574,7 +16574,7 @@
 
     Lampa.Lang.add({
       online_mod_watch: {
-        ru: '__Start_🎃_{online}__',
+        ru: 'Start🎃{online}',
         uk: 'Дивитися онлайн',
         be: 'Глядзець анлайн',
         en: 'Watch online',
@@ -16588,7 +16588,7 @@
         zh: '获取链接失败'
       },
       online_mod_blockedlink: {
-        ru: '__Video_not_available_in_your_region_❌__',
+        ru: 'Video_not_available_in_your_region_❌',
         uk: 'На жаль, це відео не доступне у вашому регіоні',
         be: 'Нажаль, гэта відэа не даступна ў вашым рэгіёне',
         en: 'Sorry, this video is not available in your region',
@@ -16658,7 +16658,7 @@
         zh: '根据要求'
       },
       online_mod_query_end: {
-        ru: '__no_results_❓__',
+        ru: 'no_results😥',
         uk: 'немає результатів',
         be: 'няма вынікаў',
         en: 'no results',
@@ -16672,7 +16672,7 @@
         zh: '在线的'
       },
       online_mod_title_full: {
-        ru: '__Online_Mod_🌏__',
+        ru: 'Online_Mod_🌏',
         uk: 'Онлайн Мод',
         be: 'Анлайн Мод',
         en: 'Online Mod',
@@ -16903,21 +16903,21 @@
         zh: '秘密密码'
       },
       online_mod_seasons_count: {
-        ru: '__🎭_Seasons_🎭__',
+        ru: '🎭_Seasons_🎭',
         uk: 'Сезонів',
         be: 'Сезонаў',
         en: 'Seasons',
         zh: '季'
       },
       online_mod_episodes_count: {
-        ru: '__🎃_Episodes_🎃__',
+        ru: '🎃_Episodes_🎃',
         uk: 'Епізодів',
         be: 'Эпізодаў',
         en: 'Episodes',
         zh: '集'
       },
       online_mod_show_more: {
-        ru: '__☃_Show_more_☃__',
+        ru: '☃_Show_more_☃',
         uk: 'Показати ще',
         be: 'Паказаць яшчэ',
         en: 'Show more',
@@ -16987,7 +16987,7 @@
         zh: '设备未授权'
       },
       online_mod_filmix_status: {
-        ru: '__Status_#️&&__',
+        ru: 'Status_#️&&',
         uk: 'Статус',
         be: 'Статус',
         en: 'Status',

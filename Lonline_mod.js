@@ -1,4 +1,4 @@
-//26.10.2024 - Fix
+//26.10.2024 - Fix 1816
 
 (function () {
     'use strict';
@@ -1813,11 +1813,11 @@
             id: cdnSeries[2]
           };
           defSeason = {
-            name: 'Сезон ' + cdnSeries[3],
+            name: 'Season🎃 ' + cdnSeries[3],
             id: cdnSeries[3]
           };
           defEpisode = {
-            name: 'Серия ' + cdnSeries[4],
+            name: 'Series❄ ' + cdnSeries[4],
             season_id: cdnSeries[3],
             episode_id: cdnSeries[4]
           };
@@ -2224,7 +2224,7 @@
           extract.episode.forEach(function (episode) {
             if (episode.season_id == season_id) {
               filtred.push({
-                title: component.formatEpisodeTitle(episode.season_id, null, episode.name),
+                title: component.(episode.season_id, null, episode.name),
                 quality: '360p ~ 1080p',
                 info: ' / ' + voice,
                 season: parseInt(episode.season_id),
@@ -2611,7 +2611,7 @@
                 var episode = parseInt(title);
                 if (isNaN(episode)) episode = index + 1;
                 filtred.push({
-                  title: component.formatEpisodeTitle(season, null, title),
+                  title: component.(season, null, title),
                   quality: items[0].quality + 'p' + (quality_type ? ' - ' + quality_type : ''),
                   info: info ? ' / ' + info : '',
                   season: season,
@@ -16665,7 +16665,7 @@
         zh: '没有结果'
       },
       online_mod_title: {
-        ru: '__❄_Online_❄__',
+        ru: '❄_Online_❄',
         uk: 'Онлайн',
         be: 'Анлайн',
         en: 'Online',

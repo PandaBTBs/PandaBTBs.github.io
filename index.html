@@ -6,12 +6,12 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Maillard</title>
+    <title>panel info</title>
 
-    <script>
+<!--     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
-    </script>
+    </script> -->
 
     <!-- CSS
     ================================================== -->
@@ -109,91 +109,91 @@
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-:root {
-    --font-1: "Newsreader", Serif;
-    --font-2: "Cormorant Garamond", Serif;
-    --font-3: "Inter", Sans-serif;
-    --font-4: "Cormorant SC", Serif;
+    :root {
+        --font-1: "Newsreader", Serif;
+        --font-2: "Cormorant Garamond", Serif;
+        --font-3: "Inter", Sans-serif;
+        --font-4: "Cormorant SC", Serif;
 
   /* monospace
    */
-    --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
-}
+        --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+    }
 
 /* ------------------------------------------------------------------- 
  * ## colors
  * ------------------------------------------------------------------- */
-:root {
+    :root {
 
   /* color-1(#C73E1D)
    * color-2(#D1C1B3)
    * color-3(#595968)
    */
-    --color-1                     : hsla(12, 75%, 45%, 1);
-    --color-2                     : hsla(28, 25%, 76%, 1);
-    --color-3                     : hsla(240, 8%, 38%, 1);
+        --color-1                     : hsla(12, 75%, 45%, 1);
+        --color-2                     : hsla(28, 25%, 76%, 1);
+        --color-3                     : hsla(240, 8%, 38%, 1);
 
   /* theme color variations
    */
-    --color-1-lightest            : hsla(12, 75%, 75%, 1);
-    --color-1-lighter             : hsla(12, 75%, 65%, 1);
-    --color-1-light               : hsla(12, 75%, 55%, 1);
-    --color-1-dark                : hsla(12, 75%, 35%, 1);
-    --color-1-darker              : hsla(12, 75%, 25%, 1);
-    --color-1-darkest             : hsla(12, 75%, 15%, 1);
+        --color-1-lightest            : hsla(12, 75%, 75%, 1);
+        --color-1-lighter             : hsla(12, 75%, 65%, 1);
+        --color-1-light               : hsla(12, 75%, 55%, 1);
+        --color-1-dark                : hsla(12, 75%, 35%, 1);
+        --color-1-darker              : hsla(12, 75%, 25%, 1);
+        --color-1-darkest             : hsla(12, 75%, 15%, 1);
 
-    --color-2-lighter             : hsla(28, 25%, 96%, 1);
-    --color-2-light               : hsla(28, 25%, 86%, 1);
-    --color-2-dark                : hsla(28, 25%, 66%, 1);
-    --color-2-darker              : hsla(28, 25%, 56%, 1);
-    --color-2-darkest             : hsla(28, 25%, 36%, 1);
+        --color-2-lighter             : hsla(28, 25%, 96%, 1);
+        --color-2-light               : hsla(28, 25%, 86%, 1);
+        --color-2-dark                : hsla(28, 25%, 66%, 1);
+        --color-2-darker              : hsla(28, 25%, 56%, 1);
+        --color-2-darkest             : hsla(28, 25%, 36%, 1);
 
-    --color-3-lighter             : hsla(240, 8%, 58%, 1);
-    --color-3-light               : hsla(240, 8%, 48%, 1);
-    --color-3-dark                : hsla(240, 8%, 28%, 1);
-    --color-3-darker              : hsla(240, 8%, 10%, 1);
+        --color-3-lighter             : hsla(240, 8%, 58%, 1);
+        --color-3-light               : hsla(240, 8%, 48%, 1);
+        --color-3-dark                : hsla(240, 8%, 28%, 1);
+        --color-3-darker              : hsla(240, 8%, 10%, 1);
 
   /* feedback colors
    * color-error(#ffd1d2), color-success(#c8e675), 
    * color-info(#d7ecfb), color-notice(#fff099)
    */
-    --color-error                 : hsla(359, 100%, 91%, 1);
-    --color-success               : hsla(76, 69%, 68%, 1);
-    --color-info                  : hsla(205, 82%, 91%, 1);
-    --color-notice                : hsla(51, 100%, 80%, 1);
-    --color-error-content         : hsla(359, 50%, 50%, 1);
-    --color-success-content       : hsla(76, 29%, 28%, 1);
-    --color-info-content          : hsla(205, 32%, 31%, 1);
-    --color-notice-content        : hsla(51, 30%, 30%, 1);
+        --color-error                 : hsla(359, 100%, 91%, 1);
+        --color-success               : hsla(76, 69%, 68%, 1);
+        --color-info                  : hsla(205, 82%, 91%, 1);
+        --color-notice                : hsla(51, 100%, 80%, 1);
+        --color-error-content         : hsla(359, 50%, 50%, 1);
+        --color-success-content       : hsla(76, 29%, 28%, 1);
+        --color-info-content          : hsla(205, 32%, 31%, 1);
+        --color-notice-content        : hsla(51, 30%, 30%, 1);
 
   /* neutrals
    * generated using 
    * Tint & Shade Generator 
    * (https://maketintsandshades.com/)
    */
-    --color-black                 : #000000;
-    --color-gray-19               : #151312;
-    --color-gray-18               : #2a2724;
-    --color-gray-17               : #3f3a36;
-    --color-gray-16               : #544d48;
-    --color-gray-15               : #69615a;
-    --color-gray-14               : #7d746b;
-    --color-gray-13               : #92877d;
-    --color-gray-12               : #a79a8f;
-    --color-gray-11               : #bcaea1;
-    --color-gray-10               : #d1c1b3;
-    --color-gray-9                : #d6c7bb;
-    --color-gray-8                : #dacdc2;
-    --color-gray-7                : #dfd4ca;
-    --color-gray-6                : #e3dad1;
-    --color-gray-5                : #e8e0d9;
-    --color-gray-4                : #ede6e1;
-    --color-gray-3                : #f1ece8;
-    --color-gray-2                : #f6f3f0;
-    --color-gray-1                : #faf9f7;
-    --color-white                 : #ffffff;
+        --color-black                 : #000000;
+        --color-gray-19               : #151312;
+        --color-gray-18               : #2a2724;
+        --color-gray-17               : #3f3a36;
+        --color-gray-16               : #544d48;
+        --color-gray-15               : #69615a;
+        --color-gray-14               : #7d746b;
+        --color-gray-13               : #92877d;
+        --color-gray-12               : #a79a8f;
+        --color-gray-11               : #bcaea1;
+        --color-gray-10               : #d1c1b3;
+        --color-gray-9                : #d6c7bb;
+        --color-gray-8                : #dacdc2;
+        --color-gray-7                : #dfd4ca;
+        --color-gray-6                : #e3dad1;
+        --color-gray-5                : #e8e0d9;
+        --color-gray-4                : #ede6e1;
+        --color-gray-3                : #f1ece8;
+        --color-gray-2                : #f6f3f0;
+        --color-gray-1                : #faf9f7;
+        --color-white                 : #ffffff;
     /* text
    */
     --color-text                  : var(--color-gray-19);

@@ -1,4 +1,4 @@
-//26.10.2024 - Fix 1816
+//26.10.2024 - Fix
 
 (function () {
     'use strict';
@@ -1813,11 +1813,11 @@
             id: cdnSeries[2]
           };
           defSeason = {
-            name: 'Season🎃 ' + cdnSeries[3],
+            name: 'Сезон ' + cdnSeries[3],
             id: cdnSeries[3]
           };
           defEpisode = {
-            name: 'Series❄ ' + cdnSeries[4],
+            name: 'Серия ' + cdnSeries[4],
             season_id: cdnSeries[3],
             episode_id: cdnSeries[4]
           };
@@ -2224,7 +2224,7 @@
           extract.episode.forEach(function (episode) {
             if (episode.season_id == season_id) {
               filtred.push({
-                title: component.(episode.season_id, null, episode.name),
+                title: component.formatEpisodeTitle(episode.season_id, null, episode.name),
                 quality: '360p ~ 1080p',
                 info: ' / ' + voice,
                 season: parseInt(episode.season_id),
@@ -2611,7 +2611,7 @@
                 var episode = parseInt(title);
                 if (isNaN(episode)) episode = index + 1;
                 filtred.push({
-                  title: component.(season, null, title),
+                  title: component.formatEpisodeTitle(season, null, title),
                   quality: items[0].quality + 'p' + (quality_type ? ' - ' + quality_type : ''),
                   info: info ? ' / ' + info : '',
                   season: season,
@@ -16574,7 +16574,7 @@
 
     Lampa.Lang.add({
       online_mod_watch: {
-        ru: 'Start🎃{online}',
+        ru: 'Смотреть онлайн',
         uk: 'Дивитися онлайн',
         be: 'Глядзець анлайн',
         en: 'Watch online',
@@ -16588,7 +16588,7 @@
         zh: '获取链接失败'
       },
       online_mod_blockedlink: {
-        ru: 'Video_not_available_in_your_region_❌',
+        ru: 'К сожалению, это видео не доступно в вашем регионе',
         uk: 'На жаль, це відео не доступне у вашому регіоні',
         be: 'Нажаль, гэта відэа не даступна ў вашым рэгіёне',
         en: 'Sorry, this video is not available in your region',
@@ -16651,28 +16651,28 @@
         zh: '为所有人重置时间码'
       },
       online_mod_query_start: {
-        ru: '__On_request_🔎__',
+        ru: 'По запросу',
         uk: 'На запит',
         be: 'Па запыце',
         en: 'On request',
         zh: '根据要求'
       },
       online_mod_query_end: {
-        ru: 'no_results😥',
+        ru: 'нет результатов',
         uk: 'немає результатів',
         be: 'няма вынікаў',
         en: 'no results',
         zh: '没有结果'
       },
       online_mod_title: {
-        ru: '❄_Online_❄',
+        ru: 'Онлайн',
         uk: 'Онлайн',
         be: 'Анлайн',
         en: 'Online',
         zh: '在线的'
       },
       online_mod_title_full: {
-        ru: 'Online_Mod_🌏',
+        ru: 'Онлайн Мод',
         uk: 'Онлайн Мод',
         be: 'Анлайн Мод',
         en: 'Online Mod',
@@ -16903,21 +16903,21 @@
         zh: '秘密密码'
       },
       online_mod_seasons_count: {
-        ru: '🎭_Seasons_🎭',
+        ru: 'Сезонов',
         uk: 'Сезонів',
         be: 'Сезонаў',
         en: 'Seasons',
         zh: '季'
       },
       online_mod_episodes_count: {
-        ru: '🎃_Episodes_🎃',
+        ru: 'Эпизодов',
         uk: 'Епізодів',
         be: 'Эпізодаў',
         en: 'Episodes',
         zh: '集'
       },
       online_mod_show_more: {
-        ru: '☃_Show_more_☃',
+        ru: 'Показать ещё',
         uk: 'Показати ще',
         be: 'Паказаць яшчэ',
         en: 'Show more',
@@ -16987,7 +16987,7 @@
         zh: '设备未授权'
       },
       online_mod_filmix_status: {
-        ru: 'Status_#️&&',
+        ru: 'Статус',
         uk: 'Статус',
         be: 'Статус',
         en: 'Status',
@@ -17008,7 +17008,7 @@
         zh: '您已成功订阅'
       },
       online_mod_voice_error: {
-        ru: 'ERROR_456',
+        ru: 'Возникла ошибка',
         uk: 'Виникла помилка',
         be: 'Узнікла памылка',
         en: 'An error has occurred',
